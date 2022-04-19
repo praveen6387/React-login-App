@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(180, 230, 231);
+}
+
+.nav {
+  /* margin-top: 3px; */
+  display: flex;
+  width: 100vw;
+  height: 60px;
+  background-color: rgb(150, 155, 155);
+  align-items: center;
+  justify-content: end;
+}
+
+.nave {
+  padding: 0 40px;
+  color: rgba(19, 24, 23, 0.911);
+  font-size: 23px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+/* .brand {
+    position: absolute;
+    left: 15px;
+} */
+
+.logo {
+  position: absolute;
+  height: 5%;
+  top: 13px;
+  left: 30px;
+  width: 10%;
+}
+.Home {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+  color: rgb(92, 44, 92);
+}
+
+/* button */
+
+.login {
+  width: 350px;
+  height: 60px;
+  font-size: 22px;
+  background-color: rgb(85, 85, 212);
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.signup {
+  width: 350px;
+  height: 60px;
+  font-size: 22px;
+  background-color: rgb(68, 153, 65);
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sign {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* text-align: center; */
+  position: relative;
+  top: 20px;
+  left: 40%;
+}
+
+.ip {
+  width: 350px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.log {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* text-align: center; */
+  position: relative;
+  top: 100px;
+  left: 40%;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 700;
+}
